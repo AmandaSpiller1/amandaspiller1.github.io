@@ -101,12 +101,11 @@ a.contacts:active {
 }
 
 .game-text {
-  .project-text 
-    color: white;
-    font-size: 20px;
-    font-family: lucida;
-    text-align: center;
-  }
+  color: white;
+  font-size: 20px;
+  font-family: lucida;
+  text-align: center;
+}
 
 /* Large profile image */
 .large-profile {
