@@ -5,103 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amanda Spiller</title>
-    <link rel="icon" type="image/x-icon" href="images\favicon.png">
-    <meta name="description" content="Programming portfolio of Amanda Spiller">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <meta
+      name="description"
+      content="Programming portfolio of Amanda Spiller"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="header">
       <img
         class="header-image"
-        src="images\Spiller Portfolio Logo.png"
+        src="images/Spiller Portfolio Logo.png"
         alt="logo"
       />
     </div>
-    <div class="column-2">
-      <h1 class="about">About me</h1>
-      <p class="about-me-text">
-        I'm Amanda. I'm a computer science student at University of London. I am based in the US. My Bachelors program is specialized in data science. My main languages at the moment are JavaScript and SQL. Here you'll find some small projects I've been working on to
-        practice. I will be adding to this site continually.<br>I have an interest in data science, data engineering, and technical/IT support. I have three years experience in blockchain project management, and 22 years combined professional experience.
-      </p>
+
+    <div class="main-container">
+      <div class="column-2">
+        <h1 class="about">About me</h1>
+        <p class="about-me-text">
+          I'm Amanda. I'm a computer science student at the University of
+          London. I am based in the US. My Bachelors program is specialized in
+          data science. My main languages at the moment are JavaScript and SQL.
+          Here you'll find some small projects I've been working on to practice.
+          I will be adding to this site continually.<br />I have an interest in
+          data science, data engineering, and technical/IT support. I have three
+          years experience in blockchain project management, and 22 years
+          combined professional experience.
+        </p>
+      </div>
+      <div class="column-3 large-profile">
+        <h1 class="contact">Contact Info</h1>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/amandaspiller1/"
+            class="contacts"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://github.com/AmandaSpiller1"
+            class="contacts"
+            target="_blank"
+          >
+            GitHub
+          </a>
+        </p>
+        <p>
+          <a
+            href="mailto:amandaspiller@protonmail.com"
+            class="contacts"
+            target="_blank"
+            >Email</a
+          >
+        </p>
+      </div>
     </div>
-    <div class="column-3 large-profile">
-      <h1 class="contact">Contact Info</h1>
-      <p>
-        <a
-          href="https://www.linkedin.com/in/amandaspiller1/"
-          class="contacts"
-          target="_blank"
-          >LinkedIn</a
-        >
-      </p>
-      <p>
-        <a
-          href="https://github.com/AmandaSpiller1"
-          class="contacts"
-          target="_blank"
-        >
-          GitHub
-        </a>
-      </p>
-      <p>
-        <a
-          href="mailto:amandaspiller@protonmail.com"
-          class="contacts"
-          target="_blank"
-          >Email</a
-        >
-      </p>
-    </div>
-    <p><em>
-      Although I've built several websites using Wordpress over the years, this
-      is my first attempt at building a webpage from scratch using HTML and CSS.
-   </em> </p>
-    <!--Section 3: Projects-->
 
     <div class="project-div">
       <h2 class="section-heading">Projects</h2>
 
-      <a href="guess-the-number.html" >
-        <img
-          class="sc-buttons center"
-          src="images/guess-my-number.jpg"
-          alt="Guess My Number Game"
-      /></a>
-      <p class="center game-text">
-        Try to guess the secret number between 1 and 20. <br>Every wrong guess docks you 1 point. Click "Again!" for a new game. <br>Highest score will be saved until page is refreshed.
-      </p>
-      <p class="center project-text"><em>
-        The objective of this simple <br />game was
-        to introduce myself to<br />
-        JavaScript DOM manipulation.</em>
-      </p>
+      <div class="project-container">
+        <!-- Game 1 -->
+        <div class="project-item">
+          <a href="guess-the-number.html">
+            <img
+              class="sc-buttons"
+              src="images/guess-my-number.jpg"
+              alt="Guess My Number Game"
+            />
+          </a>
+          <p class="game-text">
+            Try to guess the secret number between 1 and 20. <br />Every wrong
+            guess docks you 1 point. Click "Again!" for a new game.
+            <br />Highest score will be saved until page is refreshed.
+          </p>
+          <p class="project-text">
+            <em
+              >The objective of this simple game was to introduce myself to
+              JavaScript DOM manipulation.</em
+            >
+          </p>
+        </div>
 
-      <a href="-pig-dice-game.html">
-        <img class="sc-buttons center" src="images/pig.jpg" alt="Pig Dice Game"
-      /></a>
-      <p class="center game-text">
-        Pig dice game. This is a two player (one machine) game.<br> The first player to reach a total score of 100 wins.<br> Roll and 'hold' your current score when you're ready to pass<br> to the next player and add your current<br> to your total. If you roll a 1, your current score<br> is lost and it automatically passes to the next player.
-      </p>
-      </p>
-      <p class="center project-text"><em>
-        This was also an exercise in DOM<br>
-        manipulation that involved more CSS.
-     </em> </p>
+        <!-- Game 2 -->
+        <div class="project-item">
+          <a href="pig-dice-game.html">
+            <img class="sc-buttons" src="images/pig.jpg" alt="Pig Dice Game" />
+          </a>
+          <p class="game-text">
+            Pig dice game. This is a two-player (one machine) game.<br />
+            The first player to reach a total score of 100 wins.<br />
+            Roll and 'hold' your current score when you're ready to pass<br />
+            to the next player and add your current<br />
+            to your total. If you roll a 1, your current score<br />
+            is lost and it automatically passes to the next player.
+          </p>
+          <p class="project-text">
+            <em
+              >This was also an exercise in DOM manipulation that involved more
+              CSS.</em
+            >
+          </p>
+        </div>
+      </div>
     </div>
-    <!--Footer-->
 
     <div class="footer">
-      <div class="footer">
-        <p class="footer-text-left">
-          <a href="index.html" class="menu">home</a>
-          <div class="footer-content-right">
-            <a href="https://github.com/AmandaSpiller1" target="_blank"><img src="images\1390302_github_icon.png" class="icon-style" alt="Github icon"></a>
-            <a href="https://www.linkedin.com/in/amandaspiller1/" target="_blank"><img src="images\1218170_linkedin_icon.png" class="icon-style" alt="LinkedIn icon"></a>
-            <a href="mailto:amandaspiller@protonmail.com" target="_blank"><img src="images\1595249_circles_email_envelope_letter_line_icon.png" class="icon-style" alt="Email icon"></a>
-          </div>
-        </p>
+      <div class="footer-text-left">
+        <a href="index.html" class="menu">home</a>
+      </div>
+      <div class="footer-content-right">
+        <a href="https://github.com/AmandaSpiller1" target="_blank"
+          ><img
+            src="images/1390302_github_icon.png"
+            class="icon-style"
+            alt="Github icon"
+        /></a>
+        <a href="https://www.linkedin.com/in/amandaspiller1/" target="_blank"
+          ><img
+            src="images/1218170_linkedin_icon.png"
+            class="icon-style"
+            alt="LinkedIn icon"
+        /></a>
+        <a href="mailto:amandaspiller@protonmail.com" target="_blank"
+          ><img
+            src="images/1595249_circles_email_envelope_letter_line_icon.png"
+            class="icon-style"
+            alt="Email icon"
+        /></a>
       </div>
     </div>
   </body>
 </html>
-
-<link rel="stylesheet" href="css/styles.css" />
